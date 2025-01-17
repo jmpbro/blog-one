@@ -7,51 +7,74 @@
         <title>Blog One</title>
     </head>
     <body>
-        <h1>Blog One</h1>
-        <section>
-            <p>This is a place to showcase general life-musings, <i>photography</i> and <strong>artwork</strong>.</p>
-            <p>A little <b>glimpse</b>, if you will, about how I live my life.</p>
-            <p>Which is in-alignment with the <em>natural world</em>.</p>
-        </section>
-        <button type="button">INSPIRATION~STATION</button>
-        <article>
-            <header>
-                <h2>Imbolc</h2>
-                    <details>
-                        <summary>Take a peak?</summary>
-                        <p>Imbolc is a time of cleansing and purification. It's a time to welcome the first signs of spring.</p>
-                    </details>
-                <p>Posted on <time datetime="2025-02-01">February 1, 2025</time> by <a href="imbolc.html">Jolene Brown</a></p>
-            </header>
-            <img src="images/tea_set.png" alt="A tea set on a table"/>
-        </article>
-        <article>
-            <header>
-                <h2>Ostara</h2>
-                    <details>
-                        <summary>Take a peak?</summary>
-                        <p>Spring is a time of renewal and rebirth. The earth is waking up from its long winter's nap.</p>
-                    </details>
-                <p>Posted on <time datetime="2025-03-21">March 21, 2025</time> by <a href="ostara.html">Jolene Brown</a></p>
-            </header>
-            <img src="images/tree.png" alt="A tree in the forest"/>
-        </article>
-        <article>
-            <header>
-                <h2>Beltane</h2>
-                    <details>
-                        <summary>Take a peak?</summary>
-                        <p>It's a time of fertility and fire. The earth is in full bloom.</p>
-                    </details>
-                <p>Posted on <time datetime="2025-05-01">May 1, 2025</time> by <a href="beltane.html">Jolene Brown</a></p>
-            </header>
-            <img src="images/small_house.png" alt="A small house in the forest"/>
-        </article>
-        <section>
+        <header class="main-header">
+            <div class="header-container">
+                <h1 class="main-header-h1">Blog One</h1>
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="Learn.html">Learn</a></li>
+                        <li><a href="Archive.html">Archive</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    <main>
+        <h2 id="intro-header">Welcome to Blog One</h2>
+            <section id="intro">
+                <p>This is a place to showcase general life-musings, <i>photography</i> and <strong>artwork</strong>.</p>
+                <p>A little <b>glimpse</b>, if you will, about how I live my life.</p>
+                <p>Which is in-alignment with the <em>natural world</em>.</p>
+            </section>
+        <aside class="aside">
+            <button type="button">INSPIRATION</button>
+        </aside>
+        <div class="container">
+            <article class="article">
+                <header class="article-header">
+                    <h2>Imbolc</h2>
+                    <img class="img-box" src="images/tea_set.png" alt="A tea set on a table"/>
+                        <details>
+                            <summary>Take a peak?</summary>
+                            <p>Imbolc is a time of cleansing and purification. It's a time to welcome the first signs of spring.</p>
+                        </details>
+                    <p class="author">Posted on <time datetime="2025-02-01">February 1, 2025</time> by <a href="imbolc.html"><b>Jolene Brown</b></a></p>
+                </header>
+            </article>
+            <article class="article">
+                <header class="article-header">
+                    <h2>Ostara</h2>
+                    <img class="img-box" src="images/tree.png" alt="A tree in the forest"/>
+                        <details>
+                            <summary>Take a peak?</summary>
+                            <p>Spring is a time of renewal and rebirth. The earth is waking up from its long winter's nap.</p>
+                        </details>
+                    <p class="author">Posted on <time datetime="2025-03-21">March 21, 2025</time> by <a href="ostara.html"><b>Jolene Brown</b></a></p>
+                </header>
+            </article>
+            <article class="article">
+                <header class="article-header">
+                    <h2>Beltane</h2>
+                    <img class="img-box" src="images/small_house.png" alt="A small house in the forest"/>
+                        <details>
+                            <summary>Take a peak?</summary>
+                            <p>It's a time of fertility and fire. The earth is in full bloom.</p>
+                        </details>
+                    <p class="author">Posted on <time datetime="2025-05-01">May 1, 2025</time> by <a href="beltane.html"><b>Jolene Brown</b></a></p>
+                </header>
+            </article>
+        </div>
+    </main>
+        <section class="quote">
             <p>I often think about how Shakespeare's writing inspired many generations that followed.</p>
                 <blockquote>
                     Thou sodden-witted lord! thou hast no more brain than I have in mine elbows! ~ William Shakespeare
                 </blockquote>
         </section>
+    <footer class="main-footer">
+            <p>&copy; 2025 Blog One</p>
+    </footer>
     </body>
 </html>
